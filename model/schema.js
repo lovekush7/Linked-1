@@ -23,6 +23,11 @@ const PostSchema = mongoose.Schema({
         required: true
 
     },
+    People: {
+        type: String,
+        required: true
+
+    },
     list: {
         type: String,
         required: true
